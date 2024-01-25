@@ -25,7 +25,6 @@ def victory_for(board, player):
         if v == mark:
             jogadas.append(k)
     jogadas.sort()
-    print(jogadas)
     consec = 0
     for c in vitorias:
         for i in c:
